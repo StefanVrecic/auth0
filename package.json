@@ -22,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/salte-auth/auth0.git"
+    "url": "https://github.com/StefanVrecic/auth0.git"
   },
   "scripts": {
     "start": "nps",
