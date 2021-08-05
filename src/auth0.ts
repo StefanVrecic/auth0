@@ -10,7 +10,7 @@ export class Auth0 extends OpenIDProvider {
   }
 
   public get login(): string {
-    return this.url(`${this.config.url}/authorize`, {
+    return this.url(`${this.config.url}`, {
       audience: this.config.audience
     });
   }
