@@ -8,7 +8,7 @@ export class Auth0 extends OpenIDProvider {
   public get name(): string {
     return 'auth0';
   }
-
+  // blah blah
   public get login(): string {
     return this.url(`${this.config.url}`, {
       audience: this.config.audience
